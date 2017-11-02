@@ -1,0 +1,36 @@
+body{
+
+  border: 20px #bdc3c7 solid;
+  padding: 20px;
+  margin: 20px auto;
+  /*This means 20px top and bottom and auto left and right*/
+  max-width: 700px;
+  width: 80%;
+  /*This means, make it 80% when you need to (window smaller than max-width), but at max make it 700px*/
+  font-family: source sans pro;
+}
+.date{
+  font-size: 15px;
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  /*rem is like em but not set from the element it is inside but in relation to the root element on the page*/
+
+}
+.highlight{
+  border-left: 5px #bdc3c7 solid;
+  padding-left: 5px;
+}
+.post{
+  margin-bottom: 20px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+}
+h2{
+  font-size: 2.0rem;
+  color: #2c3e50;
+  font-weight: 700;
+}
